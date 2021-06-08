@@ -18,8 +18,8 @@ void loop() {
     char data=Serial.read();
     switch(data)
     {
-      case 'a': s.write(120);p=0;break;
-      case 'd': s.write(30);p=1;break;
+      case 'A': s.write(120);p=0;break;
+      case 'D': s.write(30);p=1;break;
       default:break;
     }
     Serial.println(data);
